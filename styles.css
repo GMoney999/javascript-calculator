@@ -48,6 +48,7 @@ form .display {
     margin: 2rem 0;
     border: 2px solid rgba(57, 255,200, 0.5);
     border-radius: 1rem;
+    font-size: 1rem;
 }
 
 form .display input {
@@ -55,4 +56,12 @@ form .display input {
     flex: 1;
     font-size: 4.5rem;
     box-shadow: none;
+}
+
+form input.operator {
+    color: rgba(57, 255, 200, 0.5);
+}
+
+form input.clear {
+    color: #ff5555;
 }
